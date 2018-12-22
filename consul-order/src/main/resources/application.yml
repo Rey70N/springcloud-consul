@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: consul-order
+
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        hostname: 127.0.0.1
+
+server:
+  port: 8200

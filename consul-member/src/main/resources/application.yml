@@ -1,0 +1,16 @@
+##服务名称
+spring:
+  application:
+    name: consul-member
+
+#连接consul
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        hostname: 127.0.0.1
+
+##本服务在tomcat中运行的端口号
+server:
+  port: 8100
